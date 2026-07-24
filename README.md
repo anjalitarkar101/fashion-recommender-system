@@ -28,7 +28,7 @@ A **Fashion Recommender System** built with Streamlit that suggests similar fash
 
 ## 📁 Project Structure
 ```
-fashion-recommender/
+fashion-recommender-system/
 ├── app.py                    # Main Streamlit application (UI)
 ├── recommend.py              # Recommendation functions
 ├── feature_extractor.py      # Feature extraction script
