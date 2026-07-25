@@ -80,6 +80,9 @@ uploaded_file = st.file_uploader(
 )
 
 if uploaded_file is not None:
+    # Create uploads folder if it doesn't exist
+    os.makedirs('uploads', exist_ok=True)
+    
     # Save uploaded file
     file_path = os.path.join('uploads', uploaded_file.name)
     with open(file_path, 'wb') as f:
